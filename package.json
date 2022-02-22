@@ -1,0 +1,40 @@
+{
+  "name": "rollup-plugin-minip-components-transfer",
+  "version": "1.0.0",
+  "description": "This is a plug-in that converts wechat applet custom components into other applet custom components.",
+  "main": "dist/rollup-plugin-minip-components-transfer.cjs.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anoiing/rollup-plugin-minip-components-transfer.git"
+  },
+  "keywords": [
+    "rollup",
+    "wechat",
+    "components"
+  ],
+  "author": "Anoiing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anoiing/rollup-plugin-minip-components-transfer/issues"
+  },
+  "homepage": "https://github.com/Anoiing/rollup-plugin-minip-components-transfer#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "rollup": "^2.67.3"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.17.3",
+    "@babel/parser": "^7.17.3",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0",
+    "@rollup/pluginutils": "^4.1.2",
+    "wxml": "^2.2.2"
+  }
+}

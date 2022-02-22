@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/**/node_modules
+/**/package-lock.json
+
+# editor
+.idea
+.vscode
+/**/.vscode*
+
+# production
+/dist
+
+# misc
+.DS_Store
+
+# logs
+/*.log
+/npm-debug.log*
